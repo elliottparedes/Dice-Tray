@@ -1,0 +1,34 @@
+{
+  "name": "dice-tray",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "A physics dice roller for Dungeons & Dragons.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@3d-dice/dice-box": "^1.1.4",
+    "@vueuse/core": "^15.0.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.69.1",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14",
+    "wrangler": "^4.161.0"
+  },
+  "allowScripts": {
+    "workerd@1.20261110.1": true,
+    "esbuild@0.28.2": true
+  }
+}
