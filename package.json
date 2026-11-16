@@ -25,7 +25,7 @@
     "typescript": "~6.0.3",
     "vite": "^8.3.6",
     "vue-tsc": "^3.3.14",
-    "wrangler": "^4.161.0"
+    "wrangler": "^4.162.0"
   },
   "allowScripts": {
     "workerd@1.20261110.1": true,
